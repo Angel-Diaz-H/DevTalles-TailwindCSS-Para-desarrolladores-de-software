@@ -4,11 +4,13 @@
   body {
     @apply bg-slate-800 px-4 py-2 text-white;
   }
-}
 
-@layer base {
   h1 {
     @apply mb-2 text-3xl font-bold;
+  }
+
+  button {
+    @apply cursor-pointer rounded-full;
   }
 }
 
